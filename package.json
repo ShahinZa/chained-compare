@@ -1,6 +1,6 @@
 {
   "name": "chained-compare",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "chained-compare is a lightweight utility for evaluating chained comparison expressions in JavaScript and TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
