@@ -1,0 +1,46 @@
+{
+  "name": "chained-compare",
+  "version": "1.0.0",
+  "description": "chained-compare is a lightweight utility for evaluating chained comparison expressions in JavaScript and TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/tests/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahinZa/chained-compare.git"
+  },
+  "keywords": [
+    "chained-compare"
+  ],
+  "author": "Shahin Zanbaghi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShahinZa/chained-compare/issues"
+  },
+  "homepage": "https://github.com/ShahinZa/chained-compare#readme",
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0"
+  }
+}

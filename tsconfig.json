@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // JavaScript target version
+    "module": "CommonJS", // Module system
+    "outDir": "./dist", // Output directory for compiled files
+    "declaration": true, // Generate .d.ts files
+    "declarationDir": "./dist", // Output directory for .d.ts files
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Enable interop with ES modules
+    "skipLibCheck": true, // Skip type-checking of declaration files
+    "forceConsistentCasingInFileNames": true // Ensure consistent casing in file names
+  },
+  "include": ["src/**/*.ts", "src/__tests__/compare.test.ts"], // Include all TypeScript files in src/
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist directories
+}
