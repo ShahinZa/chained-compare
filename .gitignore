@@ -28,3 +28,6 @@ coverage/
 .DS_Store
 *.swp
 *~
+
+# npmrc file
+.npmrc
